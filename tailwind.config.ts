@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Spiritual Museum Colors
+				'sacred-cream': 'hsl(var(--sacred-cream))',
+				'blessed-beige': 'hsl(var(--blessed-beige))',
+				'divine-gold': 'hsl(var(--divine-gold))',
+				'heavenly-blue': 'hsl(var(--heavenly-blue))',
+				'eternal-bronze': 'hsl(var(--eternal-bronze))',
+				'peaceful-white': 'hsl(var(--peaceful-white))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

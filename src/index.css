@@ -8,35 +8,62 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Museum of Memory Spiritual Design System */
+    --background: 40 15% 96%;
+    --foreground: 25 20% 25%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 40 20% 98%;
+    --card-foreground: 25 20% 25%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 40 20% 98%;
+    --popover-foreground: 25 20% 25%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Spiritual Primary - Deep warm brown */
+    --primary: 25 25% 20%;
+    --primary-foreground: 40 25% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Sacred Secondary - Warm cream */
+    --secondary: 40 25% 92%;
+    --secondary-foreground: 25 20% 25%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Blessed Muted - Soft beige */
+    --muted: 40 20% 90%;
+    --muted-foreground: 25 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Divine Accent - Golden warmth */
+    --accent: 45 35% 85%;
+    --accent-foreground: 25 25% 20%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 25 25% 20%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+
+    /* Spiritual Color Palette */
+    --sacred-cream: 40 25% 96%;
+    --blessed-beige: 40 20% 90%;
+    --divine-gold: 45 60% 75%;
+    --heavenly-blue: 210 40% 85%;
+    --eternal-bronze: 30 25% 60%;
+    --peaceful-white: 40 10% 99%;
+    
+    /* Spiritual Gradients */
+    --gradient-divine: linear-gradient(135deg, hsl(var(--sacred-cream)), hsl(var(--divine-gold)));
+    --gradient-peaceful: linear-gradient(180deg, hsl(var(--peaceful-white)), hsl(var(--blessed-beige)));
+    --gradient-eternal: linear-gradient(45deg, hsl(var(--eternal-bronze)), hsl(var(--divine-gold)));
+    
+    /* Sacred Shadows */
+    --shadow-blessed: 0 4px 20px -4px hsl(var(--eternal-bronze) / 0.15);
+    --shadow-divine: 0 8px 32px -8px hsl(var(--divine-gold) / 0.25);
+    --shadow-peaceful: 0 2px 12px -2px hsl(var(--primary) / 0.1);
+    
+    /* Spiritual Transitions */
+    --transition-blessed: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+    --transition-gentle: all 0.3s ease-out;
 
     --sidebar-background: 0 0% 98%;
 
